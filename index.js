@@ -9,6 +9,7 @@ import chatRouter from './routers/chatRouter.js';
 const port = 4000;
 
 // enable cors
+app.use(cors());
 const app = express();
 dotenv.config();
 
