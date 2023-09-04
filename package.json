@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsc",
     "startpm2": "pm2 start production.config.json"
   },
   "author": "",
